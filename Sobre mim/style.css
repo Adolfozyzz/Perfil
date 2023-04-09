@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+    
+  ;}
+.cabecalho{
+    text-decoration: none;
+    color: rgb(16, 24, 141);
+    font-size: 25px;
+    font-weight: 500;
+    border-style: inset;
+}
+.ass{
+    
+        padding: 5% 15%;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+}  
+.paragrafo{
+    color: white;
+    font-size: 24px;
+    padding:5% 20%;
+    padding: 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    border: 3px solid blue;
+    padding: 10px;
+}
+.apresentacao{
+    
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10%;
+}
+.conteudo{
+    width: 615px;
+
+}
+.titulo{
+    color: aliceblue;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 10%;
+}
+.rede{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(63, 213, 233);
+    font-size: 24px;
+    border: 2px inset white;
+    padding: 20px;
+    border-radius: 8px;
+    width:30%;
+   
+}
+.rede:hover{
+    background-color: aliceblue;
+}
+.apresentacao_link{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+
